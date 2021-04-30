@@ -1,38 +1,298 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.greeting-container {
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.greeting-container img {
+  height: 700px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.logo, .links {
+  color: white;
+}
+
+.logo {
+  float: left;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.links {
+  float: right;
+  margin-right: 100px;
+  margin-top: 35px;
+}
+
+.links li {
+  display: inline;
+  margin: 30px;
+  transition: .3s;
+}
+
+.links li:hover {
+  font-size: 20px;
+}
+
+.links button {
+  height: 40px;
+  width: 130px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  transition: .3s;
+}
+
+.links button:hover {
+  background-color: white;
+  color: black;
+}
+
+.greeting-text {
+  height: 200px;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 300px;
+  margin-left: 450px;
+}
+
+.greeting-text h1 {
+  width: 500px;
+  color: white;
+  font-size: 5em;
+  margin: auto;
+}
+
+.greeting-text button {
+  margin: 20px 380px;
+  height: 50px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  transition: .3s;
+}
+
+.greeting-text button:hover {
+  background-color: white;
+  color: black;
+}
+
+.intro-container {
+  height: 500px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.intro-text {
+  height: 40%;
+  width: 40%;
+  text-align: center;
+}
+
+.intro-text h1 {
+  font-size: 50px;
+}
+
+.intro-text h3 {
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.section-one-container {
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+
+.section-one-left {
+  height: 100%;
+  width: 50%;
+}
+
+.section-one-left img {
+  height: 500px;;
+  width: 800px;
+  margin: 50px;
+}
+
+.section-one-right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-one-text {
+  width: 50%;
+}
+
+.section-one-text h1 {
+  font-size: 50px;
+}
+
+.section-one-text h3 {
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.section-one-text button {
+  margin-top: 30px;
+  height: 40px;
+  width: 150px;
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
   color: white;
+  font-size: 18px;
+  transition: .3s;
 }
 
-.App-link {
-  color: #61dafb;
+.section-one-text button:hover {
+  background-color: rgb(68, 64, 64);
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-two-container {
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+
+.section-two-left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-two-text {
+  width: 50%;
+}
+
+.section-two-text h1 {
+  font-size: 50px;
+}
+
+.section-two-text h3 {
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.section-two-text button {
+  margin-top: 30px;
+  height: 40px;
+  width: 150px;
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.section-two-text button:hover {
+  background-color: rgb(68, 64, 64);
+  cursor: pointer;
+}
+
+.section-two-right {
+  height: 100%;
+  width: 50%;
+}
+
+.section-two-right img {
+  height: 500px;
+  width: 800px;
+  margin: 50px;
+}
+
+.subscribe-container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-text {
+  width: 50%;
+  text-align: center;
+}
+
+.subscribe-text h1 {
+  font-size: 50px;
+}
+
+.subscribe-text h3 {
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.subscribe-text input, button {
+  height: 40px;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.subscribe-text input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.subscribe-text button {
+  width: 140px;
+  background-color: gray;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  transition: .3s;
+  font-size: 18px;
+}
+
+.subscribe-text button:hover {
+  background-color: rgb(68, 64, 64);
+  cursor: pointer;
+}
+
+.footer-container {
+  height: 140px;
+  width: 100%;
+  background-color: rgb(31, 30, 30);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.org-info ul li {
+  display: inline;
+  margin: 10px;
 }

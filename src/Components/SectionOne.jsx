@@ -11,11 +11,12 @@ const SectionOne = props => {
                 <div className="section-one-text">
                     <h1>Dummy Text Here</h1>
                     <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente dignissimos possimus quam placeat reprehenderit accusamus quia debitis totam laborum vero illum unde dicta quisquam aliquam, dolores ducimus ex facilis corrupti?</h3>
-                    <button>Click Me!</button>
+                    <button>Clicky!</button>
                 </div>
             </div>
         </div>
-    )
-}
+
+        );
+    }
 
 export default SectionOne;

@@ -7,14 +7,17 @@ import Subscribe from './Components/Subscribe';
 import Footer from './Components/Footer';
 
 function App() {
+
   return (
     <div className="App">
-      <Greeting />
-      <Introduction />
-      <SectionOne />
-      <SectionTwo />
-      <Subscribe />
-      <Footer />
+
+        <Greeting />
+        <Introduction />
+        <SectionOne />
+        <SectionTwo />
+        <Subscribe />
+        <Footer />
+
     </div>
   );
 }

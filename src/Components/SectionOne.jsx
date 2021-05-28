@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from '@reach/router';
 import camera from '../Assets/Images/camera.jpg';
 
 const SectionOne = props => {
@@ -11,7 +12,7 @@ const SectionOne = props => {
                 <div className="section-one-text">
                     <h1>Dummy Text Here</h1>
                     <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente dignissimos possimus quam placeat reprehenderit accusamus quia debitis totam laborum vero illum unde dicta quisquam aliquam, dolores ducimus ex facilis corrupti?</h3>
-                    <button>Clicky!</button>
+                    <Link to="/news"><button>News</button></Link>
                 </div>
             </div>
         </div>

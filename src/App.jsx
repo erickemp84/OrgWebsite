@@ -1,22 +1,21 @@
 import './App.css';
-import Greeting from './Components/Greeting';
-import Introduction from './Components/Introduction';
-import SectionOne from './Components/SectionOne';
-import SectionTwo from './Components/SectionTwo';
-import Subscribe from './Components/Subscribe';
-import Footer from './Components/Footer';
+import {Router, Link} from '@reach/router';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import News from './Pages/News';
+import Blog from './Pages/Blog';
 
 function App() {
 
   return (
     <div className="App">
 
-        <Greeting />
-        <Introduction />
-        <SectionOne />
-        <SectionTwo />
-        <Subscribe />
-        <Footer />
+    <Router>
+      <Home path="/" />
+      <About path="/about" />
+      <News path="/news" />
+      <Blog path="/blog" />
+    </Router>
 
     </div>
   );

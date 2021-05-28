@@ -44,6 +44,8 @@
   display: inline;
   margin: 30px;
   transition: .3s;
+  text-decoration: none;
+  color: white;
 }
 
 .links li:hover {
@@ -238,6 +240,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: whitesmoke;
 }
 
 .subscribe-text {
@@ -295,4 +298,70 @@
 .org-info ul li {
   display: inline;
   margin: 10px;
+}
+
+.about-image {
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-image img {
+  height: 900px;  
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.about-greeting {
+  height: 200px;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 350px;
+  margin-left: 600px;
+  color: white;
+  font-size: 40px;
+}
+
+.about-section-1 {
+  margin-top: 200px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section-1 h1 {
+  height: 300px;
+  width: 1100px;
+  font-size: 45px;
+}
+
+.about-section-2 {
+  height: 400px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.about-section-2 h2, .about-section-3 h2 {
+  height: 100px;
+  width: 400px;
+  margin-left: 30%;
+  padding-top: 80px;
+  font-size: 30px;
+}
+
+.about-section-2 p, .about-section-3 p {
+  height: 300px;
+  width: 800px;
+  margin-left: 30%;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.about-section-3 {
+  height: 400px;
+  width: 100%;
 }

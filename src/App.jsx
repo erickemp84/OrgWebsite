@@ -1,5 +1,6 @@
 import './App.css';
-import {Router, Link} from '@reach/router';
+import 'react-slideshow-image/dist/styles.css';
+import {Router} from '@reach/router';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import News from './Pages/News';

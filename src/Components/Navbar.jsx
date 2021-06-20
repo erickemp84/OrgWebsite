@@ -13,7 +13,7 @@ const Navbar = props => {
                 <Link to="/about"><li>About</li></Link>
                 <Link to="/news"><li>News</li></Link>
                 <Link to="/blog"><li>Blog</li></Link>
-                <li><button>Take Action</button></li>
+                <Link to="/takeaction"><li><button>Take Action</button></li></Link>
             </div>
         </div>
 

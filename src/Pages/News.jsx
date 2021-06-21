@@ -27,7 +27,7 @@ const News = props => {
                         <h1>Lorem ipsum dolor sit amet consectetur.</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste velit eaque officia doloremque sequi veniam itaque labore, quisquam quibusdam vitae provident quo accusamus aliquam quos doloribus eos architecto. Nulla fuga possimus ducimus!
                         </p>
-                        <a href="#">Click Me!</a>
+                        <a href="https://www.youtube.com/watch?v=J---aiyznGQ" target="_blank" rel="noreferrer">Click Me!</a>
                     </div>
                 </div>
                 <div className="news-article">
@@ -38,7 +38,7 @@ const News = props => {
                         <h1>Lorem ipsum dolor sit amet consectetur.</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste velit eaque officia doloremque sequi veniam itaque labore, quisquam quibusdam vitae provident quo accusamus aliquam quos doloribus eos architecto. Nulla fuga possimus ducimus!
                         </p>
-                        <a href="#">Click Me!</a>
+                        <a href="https://www.youtube.com/watch?v=J---aiyznGQ" target="_blank" rel="noreferrer">Click Me!</a>
                     </div>
                 </div>
                 <div className="news-article">
@@ -49,7 +49,7 @@ const News = props => {
                         <h1>Lorem ipsum dolor sit amet consectetur.</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste velit eaque officia doloremque sequi veniam itaque labore, quisquam quibusdam vitae provident quo accusamus aliquam quos doloribus eos architecto. Nulla fuga possimus ducimus!
                         </p>
-                        <a href="#">Click Me!</a>
+                        <a href="https://www.youtube.com/watch?v=J---aiyznGQ" target="_blank" rel="noreferrer">Click Me!</a>
                     </div>
                 </div>
                 <div className="news-article">
@@ -60,7 +60,7 @@ const News = props => {
                         <h1>Lorem ipsum dolor sit amet consectetur.</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste velit eaque officia doloremque sequi veniam itaque labore, quisquam quibusdam vitae provident quo accusamus aliquam quos doloribus eos architecto. Nulla fuga possimus ducimus!
                         </p>
-                        <a href="#">Click Me!</a>
+                        <a href="https://www.youtube.com/watch?v=J---aiyznGQ" target="_blank" rel="noreferrer">Click Me!</a>
                     </div>
                 </div>
             </div>

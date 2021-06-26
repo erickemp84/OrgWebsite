@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
-import Greeting from '../Components/Greeting';
 import world from '../Assets/Images/world.jpg';
 import meeting from '../Assets/Images/meeting.jpg';
 import meeting2 from '../Assets/Images/meeting2.jpg';

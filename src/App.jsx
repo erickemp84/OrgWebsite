@@ -1,8 +1,5 @@
 import './App.css';
 import 'react-slideshow-image/dist/styles.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
 import {Router} from '@reach/router';
 import Home from './Pages/Home';
 import About from './Pages/About';

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import world from '../Assets/Images/world.jpg';
@@ -7,9 +7,16 @@ import meeting2 from '../Assets/Images/meeting2.jpg';
 import office from '../Assets/Images/office.jpg';
 import office2 from '../Assets/Images/office2.jpg';
 import office3 from '../Assets/Images/office3.jpg';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 const Blog = props => {
+
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    })
+
     return(
 
         <>
@@ -33,7 +40,7 @@ const Blog = props => {
                     </div>
                 </div>
             </div>
-            <div className="blog-block">
+            <div data-aos="fade-right" data-aos-once="true" className="blog-block">
                 <div className="blog-post">
                     <div className="blog-post-image">
                         <img src={office2} alt="Another office environment." />
@@ -46,7 +53,7 @@ const Blog = props => {
                     </div>
                 </div>
             </div>
-            <div className="blog-block">
+            <div data-aos="fade-right" data-aos-once="true" className="blog-block">
                 <div className="blog-post">
                     <div className="blog-post-image">
                         <img src={meeting2} alt="Another meeting in an office." />
@@ -59,7 +66,7 @@ const Blog = props => {
                     </div>
                 </div>
             </div>
-            <div className="blog-block">
+            <div data-aos="fade-right" data-aos-once="true" className="blog-block">
                 <div className="blog-post">
                     <div className="blog-post-image">
                         <img src={office3} alt="An office space." />
@@ -72,7 +79,7 @@ const Blog = props => {
                     </div>
                 </div>
             </div>
-            <div className="blog-block">
+            <div data-aos="fade-right" data-aos-once="true" className="blog-block">
                 <div className="blog-post">
                     <div className="blog-post-image">
                         <img src={meeting} alt="A meeting in an office." />

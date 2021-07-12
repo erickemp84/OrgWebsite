@@ -11,7 +11,7 @@ const SectionTwo = props => {
     return (
         <div className="section-two-container">
             <div className="section-two-left">
-            <div data-aos="fade-right" className="section-two-text">
+            <div data-aos="fade-right" data-aos-once="true" className="section-two-text">
                     <h1>Dummy Text Here</h1>
                     <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente dignissimos possimus quam placeat reprehenderit accusamus quia debitis totam laborum vero illum unde dicta quisquam aliquam, dolores ducimus ex facilis corrupti?</h3>
                     <Link to="/blog"><button>Blog</button></Link>

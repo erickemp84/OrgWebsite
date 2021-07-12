@@ -14,7 +14,7 @@ const SectionOne = props => {
                 <img src={camera} alt="A camera." />
             </div>
             <div className="section-one-right">
-                <div data-aos="fade-left" className="section-one-text">
+                <div data-aos="fade-left" data-aos-once="true" className="section-one-text">
                     <h1>Dummy Text Here</h1>
                     <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente dignissimos possimus quam placeat reprehenderit accusamus quia debitis totam laborum vero illum unde dicta quisquam aliquam, dolores ducimus ex facilis corrupti?</h3>
                     <Link to="/news"><button>News</button></Link>

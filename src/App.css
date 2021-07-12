@@ -4,18 +4,7 @@
   box-sizing: border-box;
 }
 
-.greeting-container {
-  height: 700px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.greeting-container img {
-  height: 700px;
-  width: 100%;
-  position: absolute;
-  z-index: 0;
-}
+/*Navbar styling starts here. */
 
 .navbar {
   height: 100px;
@@ -72,6 +61,23 @@
   color: black;
 }
 
+/*Navbar styling ends here. */
+
+/*Greeting component styling starts here. */
+
+.greeting-container {
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.greeting-container img {
+  height: 700px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
 .greeting-text {
   height: 200px;
   width: 50%;
@@ -105,6 +111,10 @@
   color: black;
 }
 
+/*Greeting component styling ends here. */
+
+/*Introduction component styling starts here. */
+
 .intro-container {
   height: 500px;
   width: 100%;
@@ -128,6 +138,10 @@
   margin-top: 20px;
   font-weight: 400;
 }
+
+/*Introduction component styling ends here. */
+
+/*SectionOne component styling starts here. */
 
 .section-one-container {
   height: 600px;
@@ -184,6 +198,10 @@
   cursor: pointer;
 }
 
+/*SectionOne component styling ends here. */
+
+/*SectionTwo component styling starts here. */
+
 .section-two-container {
   height: 600px;
   width: 100%;
@@ -239,6 +257,10 @@
   margin: 50px;
 }
 
+/*SectionTwo component styling ends here. */
+
+/*Subscribe component styling starts here. */
+
 .subscribe-container {
   height: 500px;
   width: 100%;
@@ -290,6 +312,10 @@
   cursor: pointer;
 }
 
+/*Subscribe component styling ends here. */
+
+/*Footer component styling starts here. */
+
 .footer-container {
   height: 140px;
   width: 100%;
@@ -304,6 +330,10 @@
   display: inline;
   margin: 10px;
 }
+
+/*Footer component styling ends here. */
+
+/*About page styling starts here. */
 
 .about-image {
   height: 700px;
@@ -371,6 +401,10 @@
   width: 100%;
 }
 
+/*About page styling ends here. */
+
+/*News page styling starts here. */
+
 .news-image {
   height: 700px;
   width: 100%;
@@ -421,6 +455,10 @@
   padding-left: 30px;
 }
 
+/*News page styling ends here. */
+
+/*Blog page styling starts here. */
+
 .blog-image {
   height: 700px;
   width: 100%;
@@ -432,6 +470,17 @@
   width: 100%;
   position: absolute;
   z-index: 0;
+}
+
+.blog-greeting {
+  height: 200px;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 250px;
+  margin-left: 600px;
+  color: white;
+  font-size: 40px;
 }
 
 .blog-block {
@@ -465,4 +514,6 @@
   padding-top: 80px;
   padding-left: 30px;
 }
+
+/*Blog page styling ends here. */
 

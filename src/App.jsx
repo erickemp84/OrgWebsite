@@ -1,6 +1,7 @@
 import './App.css';
 import 'react-slideshow-image/dist/styles.css';
 import {Router} from '@reach/router';
+import {useEffect} from 'react';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import News from './Pages/News';

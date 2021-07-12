@@ -3,6 +3,7 @@ import traffic from '../Assets/Images/traffic.jpg';
 import {Link} from '@reach/router';
 
 const Greeting = props => {
+
     return (
         <div className="greeting-container">
             <img src={traffic} alt="Traffic at night." />            

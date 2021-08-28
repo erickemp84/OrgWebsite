@@ -520,3 +520,32 @@
 
 /*Blog page styling ends here. */
 
+/* Map component starts here */
+
+.map-container {
+  height: 600px;
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+}
+
+.map-text-block {
+  height: 100%;
+  width: 50%;
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-text {
+  height: 400px;
+  width: 600px;
+  border: 2px solid orange;
+}
+
+.map-text * {
+  margin-top: 10px;
+}
+
+

@@ -33,9 +33,9 @@ const TakeAction = props => {
                 <h2>Heading Here</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, molestiae laudantium velit ducimus ex deleniti nemo quas obcaecati tempora aut, aliquam saepe dolorem eos reiciendis eum sequi error voluptatum aspernatur sunt, adipisci fugiat quo magnam! Nulla rem, autem facilis maiores qui voluptates consequuntur eos possimus quasi alias quae quod cumque.</p>
             </div>
-            <div data-aos="fade-right" className="map-container">
+            <div className="map-container">
                 <div className="map-text-block">
-                    <div className="map-text">
+                    <div data-aos="fade-right" className="map-text">
                         <h1>Montly Meetup Locations</h1>
                         <h3>We look forward to seeing you there!</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ipsum ullam velit, architecto ipsam eligendi dignissimos similique culpa excepturi dolores illo autem obcaecati totam delectus explicabo saepe nam officia aut blanditiis rem magnam doloribus, reprehenderit dolore ipsa.</p>

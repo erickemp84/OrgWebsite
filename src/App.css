@@ -458,6 +458,23 @@
   padding-left: 30px;
 }
 
+.news-article-heading button {
+  margin-top: 30px;
+  height: 40px;
+  width: 150px;
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.news-article-heading button:hover {
+  background-color: rgb(68, 64, 64);
+  cursor: pointer;
+}
+
 /*News page styling ends here. */
 
 /*Blog page styling starts here. */
@@ -518,6 +535,23 @@
   padding-left: 30px;
 }
 
+.blog-heading button {
+  margin-top: 30px;
+  height: 40px;
+  width: 150px;
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.blog-heading button:hover {
+  background-color: rgb(68, 64, 64);
+  cursor: pointer;
+}
+
 /*Blog page styling ends here. */
 
 /* Map component starts here */
@@ -525,14 +559,12 @@
 .map-container {
   height: 600px;
   width: 100%;
-  border: 2px solid red;
   display: flex;
 }
 
 .map-text-block {
   height: 100%;
   width: 50%;
-  border: 2px solid blue;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -541,11 +573,11 @@
 .map-text {
   height: 400px;
   width: 600px;
-  border: 2px solid orange;
 }
 
 .map-text * {
   margin-top: 10px;
+  list-style-type: none;
 }
 
 

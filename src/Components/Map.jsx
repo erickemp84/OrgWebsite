@@ -1,16 +1,12 @@
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 import { Component } from 'react';
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 
 export class MapContainer extends Component {
     render() {
 
         const style = {
             width: '50%',
-            height: '60%',
-            border: '2px solid red'
+            height: '60%'
         }
 
         return (
